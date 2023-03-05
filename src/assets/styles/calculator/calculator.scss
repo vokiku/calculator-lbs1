@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../mixins";
+
+.calculator {
+  background-color: $color-white;
+  border-radius: $border-radius-primary;
+}
+
+.calculator__display {
+  padding-right: 10px;
+
+  font-size: 48px;
+  color: $color-dark;
+
+  width: 500px;
+  height: 100px;
+
+  @include center(right);
+}
